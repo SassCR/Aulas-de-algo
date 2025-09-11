@@ -7,9 +7,9 @@ let prompt = require('prompt-sync')()
 //Saída no Console:
 //O custo total da viagem será de R$ 137.50
 
-distancia= Number(prompt("Distancia da viagem "))
+distancia= Number(prompt("Distancia da viagem: "))
 consumo= Number(prompt("Consumo médio: "))
 preco= Number(prompt("Preço do combustivel: "))
 
 total = (distancia / consumo ) * preco
-console.log(total);
+console.log("custo total da viagem: ",total)
