@@ -1,10 +1,15 @@
-let salario, reajuste, final
-let prompt = require('prompt-sync')()
+let a = []
+a[0] = 1
+a[1] = 0
+a[2] = 5
+a[3] = -2
+a[4] = -5
+a[5] = 7
 
-salario = Number(prompt('DIGITE SEU SALARIO: '))
+let soma = a[0] + a[1] + a[5]
+console.log("Resutado: ", soma)
 
-reajuste = Number(prompt('VALOR DO REAJUSTE: '))
-
-final = salario + (salario * reajuste / 100)
-
-console.log("A ESMOLA NOVA É: ",final)
+a[4]= 100
+for(let i = 0; i < a.length; i ++){
+    console.log(a[i])
+}
